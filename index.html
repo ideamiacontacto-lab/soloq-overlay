@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>SoloQ Overlay - Ruleta Radial</title>
+<meta property="og:title" content="SoloQ Overlay - Ruleta Radial" />
+<meta property="og:description" content="Preview del overlay para SoloQ Challenge" />
+<meta property="og:type" content="website" />
+<link href="https://api.fontshare.com/v2/css?f%5B%5D=general-sans@700,600,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;padding:0;width:100vw;height:100vh;overflow:hidden;background:#05080c;font-family:'Outfit',sans-serif;}
+  .stage{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;}
+  .stage svg{width:100%;height:100%;max-width:100vw;max-height:100vh;}
+</style>
+</head>
+<body>
+<div class="stage">
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" font-family="Outfit, sans-serif" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <radialGradient id="bgRift" cx="50%" cy="50%" r="75%"><stop offset="0%" stop-color="#1a2a1f"/><stop offset="55%" stop-color="#0e1620"/><stop offset="100%" stop-color="#05080c"/></radialGradient>
+    <linearGradient id="rowRed" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#3A0F14"/><stop offset="100%" stop-color="#1A0A0C"/></linearGradient>
+    <linearGradient id="rowBlue" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#14315E"/><stop offset="100%" stop-color="#0B1426"/></linearGradient>
+    <linearGradient id="rowGreen" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#1F4A2E"/><stop offset="100%" stop-color="#0B1F14"/></linearGradient>
+    <linearGradient id="assignedGrad" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#5A1117"/><stop offset="100%" stop-color="#1A1112"/></linearGradient>
+    <radialGradient id="segRed" cx="50%" cy="50%" r="100%"><stop offset="0%" stop-color="#5A1117"/><stop offset="100%" stop-color="#1A1112"/></radialGradient>
+    <radialGradient id="segBlue" cx="50%" cy="50%" r="100%"><stop offset="0%" stop-color="#14315E"/><stop offset="100%" stop-color="#0F1426"/></radialGradient>
+    <radialGradient id="segBrown" cx="50%" cy="50%" r="100%"><stop offset="0%" stop-color="#4A3520"/><stop offset="100%" stop-color="#1F1610"/></radialGradient>
+    <radialGradient id="segGreen" cx="50%" cy="50%" r="100%"><stop offset="0%" stop-color="#1F4A2E"/><stop offset="100%" stop-color="#0F1F18"/></radialGradient>
+    <radialGradient id="segPurple" cx="50%" cy="50%" r="100%"><stop offset="0%" stop-color="#3A1F4A"/><stop offset="100%" stop-color="#180F22"/></radialGradient>
+    <radialGradient id="segYellow" cx="50%" cy="50%" r="100%"><stop offset="0%" stop-color="#7A6A1E"/><stop offset="100%" stop-color="#2A2510"/></radialGradient>
+  </defs>
+  <g id="Background"><rect width="1920" height="1080" fill="url(#bgRift)"/><rect width="1920" height="1080" fill="#000" opacity="0.20"/></g>
+  <g id="TopBar">
+    <rect x="0" y="0" width="1920" height="64" fill="#0E0E10" opacity="0.95"/>
+    <rect x="0" y="63" width="1920" height="1" fill="#F6E232" opacity="0.4"/>
+    <g><circle cx="48" cy="32" r="14" fill="#F6E232"/><text x="42" y="37" font-family="General Sans, sans-serif" font-weight="700" font-size="16" fill="#0E0E10">S</text><text x="72" y="38" font-family="General Sans, sans-serif" font-weight="700" font-size="15" letter-spacing="2" fill="#F6E232">SOLOQCHALLENGE</text></g>
+    <text x="960" y="38" text-anchor="middle" font-family="General Sans, sans-serif" font-weight="700" font-size="15" letter-spacing="4" fill="#F6E232">— RULETA DE CASTIGO —</text>
+    <g><circle cx="1500" cy="22" r="3" fill="#F6E232"/><text x="1512" y="26" font-family="Outfit" font-size="11" fill="#9aa0a6" letter-spacing="1">DEMO · idle · winner: rol-sup-2</text><circle cx="1500" cy="44" r="3" fill="#F6E232"/><text x="1512" y="48" font-family="Outfit" font-size="11" fill="#F6E232" letter-spacing="1">SEMANA 3 · MATCH #047</text></g>
+  </g>
+  <g id="PendingList" transform="translate(60,110)">
+    <text x="0" y="0" font-family="General Sans, sans-serif" font-weight="700" font-size="13" letter-spacing="3" fill="#F6E232">— CASTIGOS PENDIENTES</text>
+    <g transform="translate(0,24)"><rect width="420" height="64" rx="4" fill="url(#rowRed)"/><rect x="0" y="0" width="3" height="64" fill="#F6E232"/><circle cx="40" cy="32" r="20" fill="#2a1417" stroke="#F6E232" stroke-width="1.5"/><text x="74" y="29" font-family="General Sans, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Th3Antonio</text><text x="74" y="49" font-family="Outfit" font-weight="500" font-size="12" fill="#E8C8CC">AUTOFILL · 2 restantes</text><rect x="372" y="20" width="32" height="24" rx="3" fill="#0E0E10" stroke="#F6E232" stroke-opacity="0.6"/><text x="388" y="36" text-anchor="middle" font-family="General Sans, sans-serif" font-weight="700" font-size="11" fill="#F6E232">×2</text></g>
+    <g transform="translate(0,104)"><rect width="420" height="64" rx="4" fill="url(#rowBlue)"/><rect x="0" y="0" width="3" height="64" fill="#F6E232"/><circle cx="40" cy="32" r="20" fill="#15203a" stroke="#F6E232" stroke-width="1.5"/><text x="74" y="29" font-family="General Sans, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Knekro</text><text x="74" y="49" font-family="Outfit" font-weight="500" font-size="12" fill="#BFD0E8">CHAMP YUUMI · 1 restante</text><rect x="372" y="20" width="32" height="24" rx="3" fill="#0E0E10" stroke="#F6E232" stroke-opacity="0.6"/><text x="388" y="36" text-anchor="middle" font-family="General Sans, sans-serif" font-weight="700" font-size="11" fill="#F6E232">×1</text></g>
+    <g transform="translate(0,184)"><rect width="420" height="64" rx="4" fill="url(#rowGreen)"/><rect x="0" y="0" width="3" height="64" fill="#F6E232"/><circle cx="40" cy="32" r="20" fill="#143420" stroke="#F6E232" stroke-width="1.5"/><text x="74" y="29" font-family="General Sans, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Reborn</text><text x="74" y="49" font-family="Outfit" font-weight="500" font-size="12" fill="#BFE0C6">SUPPORT ×2 · 1 restante</text><rect x="372" y="20" width="32" height="24" rx="3" fill="#0E0E10" stroke="#F6E232" stroke-opacity="0.6"/><text x="388" y="36" text-anchor="middle" font-family="General Sans, sans-serif" font-weight="700" font-size="11" fill="#F6E232">×1</text></g>
+  </g>
+  <g id="AssignedPunishment" transform="translate(60,410)">
+    <text x="0" y="0" font-family="General Sans, sans-serif" font-weight="700" font-size="13" letter-spacing="3" fill="#F6E232">— CASTIGO ASIGNADO</text>
+    <g transform="translate(0,20)">
+      <rect width="620" height="180" rx="6" fill="url(#assignedGrad)"/>
+      <rect x="0" y="0" width="4" height="180" fill="#F6E232"/>
+      <g transform="translate(20,20)"><rect width="120" height="22" rx="2" fill="#F6E232"/><text x="60" y="15" text-anchor="middle" font-family="General Sans, sans-serif" font-weight="700" font-size="10" letter-spacing="2" fill="#0E0E10">CASTIGO LIVE</text></g>
+      <text x="156" y="36" font-family="General Sans, sans-serif" font-weight="600" font-size="11" letter-spacing="2" fill="#E8C8CC">SEMANA 3 · MATCH #047</text>
+      <g transform="translate(20,60)"><circle cx="32" cy="32" r="30" fill="#2a1417" stroke="#F6E232" stroke-width="2"/><text x="32" y="38" text-anchor="middle" font-family="General Sans, sans-serif" font-weight="700" font-size="20" fill="#F6E232">J</text></g>
+      <text x="100" y="84" font-family="Outfit" font-weight="500" font-size="12" letter-spacing="2" fill="#E8C8CC">JUGADOR ASIGNADO</text>
+      <text x="100" y="112" font-family="General Sans, sans-serif" font-weight="700" font-size="28" fill="#FFFFFF">JavierrLol</text>
+      <line x1="20" y1="138" x2="600" y2="138" stroke="#F6E232" stroke-opacity="0.25"/>
+      <text x="20" y="160" font-family="Outfit" font-weight="500" font-size="11" letter-spacing="2" fill="#9aa0a6">CASTIGO</text>
+      <text x="110" y="161" font-family="General Sans, sans-serif" font-weight="700" font-size="14" fill="#F6E232">SUPPORT ×2</text>
+      <text x="250" y="161" font-family="Outfit" font-weight="400" font-size="11" fill="#c9a8aa">jugar 2 partidas de SUPPORT</text>
+    </g>
+  </g>
+  <g id="WinnerBanner" transform="translate(60,640)">
+    <text x="0" y="0" font-family="General Sans, sans-serif" font-weight="700" font-size="13" letter-spacing="3" fill="#F6E232">— CASTIGO EN DIRECTO</text>
+    <g transform="translate(0,30)"><text font-family="General Sans, sans-serif" font-weight="700" font-size="44" fill="#FFFFFF"><tspan>WERLYB</tspan><tspan dx="14" fill="#F6E232">→</tspan><tspan dx="14">JAVIERRLOL</tspan></text></g>
+    <text x="0" y="86" font-family="Outfit" font-size="13" fill="#c5cdd6">Win streak detectado — 3 victorias seguidas. La ruleta determina el peaje.</text>
+  </g>
+  <g id="Wheel" transform="translate(1370,560)">
+    <circle r="280" fill="#000" opacity="0.35"/>
+    <circle r="252" fill="none" stroke="#F6E232" stroke-width="2" opacity="0.6"/>
+    <g>
+      <path d="M0,0 L240,0 A240,240 0 0,1 120,207.85 Z" fill="url(#segBrown)" transform="rotate(-90)"/>
+      <path d="M0,0 L240,0 A240,240 0 0,1 120,207.85 Z" fill="url(#segRed)" transform="rotate(-30)"/>
+      <path d="M0,0 L240,0 A240,240 0 0,1 120,207.85 Z" fill="url(#segBlue)" transform="rotate(30)"/>
+      <path d="M0,0 L240,0 A240,240 0 0,1 120,207.85 Z" fill="url(#segGreen)" transform="rotate(90)"/>
+      <path d="M0,0 L240,0 A240,240 0 0,1 120,207.85 Z" fill="url(#segPurple)" transform="rotate(150)"/>
+      <path d="M0,0 L240,0 A240,240 0 0,1 120,207.85 Z" fill="url(#segYellow)" transform="rotate(210)"/>
+    </g>
+    <g font-family="General Sans, sans-serif" font-weight="700" font-size="14" fill="#FFFFFF" letter-spacing="2">
+      <g transform="rotate(-60)"><text x="150" y="0" text-anchor="middle">PICK RANDOM</text><text x="150" y="20" text-anchor="middle" font-size="11" fill="#F6E232">15%</text></g>
+      <g transform="rotate(0)"><text x="150" y="0" text-anchor="middle">AUTOFILL ×3</text><text x="150" y="20" text-anchor="middle" font-size="11" fill="#F6E232">22%</text></g>
+      <g transform="rotate(60)"><text x="150" y="0" text-anchor="middle">SUPPORT ×2</text><text x="150" y="20" text-anchor="middle" font-size="11" fill="#F6E232">18%</text></g>
+      <g transform="rotate(120)"><text x="150" y="0" text-anchor="middle" transform="rotate(180,150,0)">CHAMP YUUMI</text><text x="150" y="-14" text-anchor="middle" font-size="11" fill="#F6E232" transform="rotate(180,150,0)">10%</text></g>
+      <g transform="rotate(180)"><text x="150" y="0" text-anchor="middle" transform="rotate(180,150,0)">LETRA K</text><text x="150" y="-14" text-anchor="middle" font-size="11" fill="#F6E232" transform="rotate(180,150,0)">15%</text></g>
+      <g transform="rotate(240)"><text x="150" y="0" text-anchor="middle" transform="rotate(180,150,0)">INDULTO</text><text x="150" y="-14" text-anchor="middle" font-size="11" fill="#F6E232" transform="rotate(180,150,0)">20%</text></g>
+    </g>
+    <g>
+      <circle cx="0" cy="-180" r="22" fill="#2a1f10" stroke="#F6E232" stroke-width="1.5"/>
+      <circle cx="156" cy="-90" r="22" fill="#2a1417" stroke="#F6E232" stroke-width="1.5"/>
+      <circle cx="156" cy="90" r="22" fill="#15203a" stroke="#F6E232" stroke-width="1.5"/>
+      <circle cx="0" cy="180" r="22" fill="#143420" stroke="#F6E232" stroke-width="1.5"/>
+      <circle cx="-156" cy="90" r="22" fill="#22152a" stroke="#F6E232" stroke-width="1.5"/>
+      <circle cx="-156" cy="-90" r="22" fill="#3a3318" stroke="#F6E232" stroke-width="1.5"/>
+    </g>
+    <g><circle r="40" fill="#0E0E10" stroke="#F6E232" stroke-width="2"/><circle r="32" fill="#F6E232"/><text y="6" text-anchor="middle" font-family="General Sans, sans-serif" font-weight="700" font-size="22" fill="#0E0E10">S</text></g>
+    <g><path d="M-14,-260 L14,-260 L0,-232 Z" fill="#F6E232"/></g>
+    <text y="310" text-anchor="middle" font-family="General Sans, sans-serif" font-weight="700" font-size="12" letter-spacing="3" fill="#F6E232">◆ LISTA PARA GIRAR</text>
+  </g>
+  <g id="DevPanel" transform="translate(60,860)">
+    <rect width="440" height="170" rx="8" fill="#0E0E10" stroke="#F6E232" stroke-opacity="0.35"/>
+    <text x="16" y="24" font-family="General Sans, sans-serif" font-weight="700" font-size="11" letter-spacing="3" fill="#F6E232">DEV PANEL</text>
+    <text x="412" y="24" text-anchor="end" font-family="Outfit" font-size="10" fill="#9aa0a6">idle</text>
+    <g transform="translate(16,40)">
+      <g><rect width="90" height="28" rx="3" fill="#181818" stroke="#F6E232" stroke-opacity="0.4"/><text x="45" y="18" text-anchor="middle" font-family="General Sans, sans-serif" font-weight="700" font-size="10" letter-spacing="2" fill="#F6E232">BG OFF</text></g>
+      <g transform="translate(100,0)"><rect width="90" height="28" rx="3" fill="#181818" stroke="#F6E232" stroke-opacity="0.4"/><text x="45" y="18" text-anchor="middle" font-family="General Sans, sans-serif" font-weight="700" font-size="10" letter-spacing="2" fill="#F6E232">RESET</text></g>
+    </g>
+    <text x="16" y="92" font-family="General Sans, sans-serif" font-weight="700" font-size="10" letter-spacing="2" fill="#9aa0a6">FORZAR GANADOR</text>
+    <g transform="translate(16,100)"><rect width="408" height="28" rx="3" fill="#181818" stroke="#F6E232" stroke-opacity="0.4"/><text x="10" y="18" font-family="Outfit" font-size="11" fill="#FFFFFF">Jugar SUPPORT 2 partidas · 18%</text><path d="M390,12 L398,12 L394,18 Z" fill="#F6E232"/></g>
+    <g transform="translate(16,138)"><rect width="408" height="24" rx="3" fill="#F6E232"/><text x="204" y="16" text-anchor="middle" font-family="General Sans, sans-serif" font-weight="700" font-size="11" letter-spacing="3" fill="#0E0E10">DISPARAR RULETA</text></g>
+  </g>
+</svg>
+</div>
+</body>
+</html>
